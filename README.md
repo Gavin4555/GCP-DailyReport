@@ -39,7 +39,7 @@
 
 ##### ①在小程序填写好信息后，使用抓包软件抓取小程序向服务器发送的文本内容，保存为txt文件：
 
-> ![88b7ddfdc794d76a6f84f4f26f9a16d](.\88b7ddfdc794d76a6f84f4f26f9a16d.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/1.png)
 
 > 关于抓包软件，PC可使用如”fiddle“、”Wireshark“等，IOS可使用如”Stream“等，安卓可使用如”HttpCanary“等（由于微信的特殊性，当微信版本7.0以上+安卓版本7.0以上，微信仅使用其内置的证书，因此正常情况下我们无法抓取其Https的数据包。不过也有曲线解决的办法，比如再安装如”平行空间“这类软件与抓包软件配合使用。HttpCanary部分版本也内置了安装”平行空间“的按钮，但颇为麻烦，因此建议使用PC端处理）
 
@@ -51,7 +51,7 @@
 
 ##### ③修改代码：
 
-> ​		![bad76195ddcbcb399f8842ff3e49242](.\bad76195ddcbcb399f8842ff3e49242.png)
+> ​		![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/2.png)
 
 把“歪比巴卜”修改为txt文件的名字。后面的“1”
 
@@ -63,15 +63,15 @@
 
 请在[腾讯云官网](https://cloud.tencent.com/)注册，注册完毕后请如下图找到“云函数”服务并新建函数：
 
-> ![13a0f5ba66e95b11acb40208a98287d](.\13a0f5ba66e95b11acb40208a98287d.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/3.png)
 >
-> ![4c97ce58c7fa06f4823c80505b7891b](.\4c97ce58c7fa06f4823c80505b7891b.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/4.png)
 >
 > 新建函数：
 >
-> ![48f9f36436a80550461c44a0c88777b](.\48f9f36436a80550461c44a0c88777b.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/5.png)
 >
-> ![52dc938eeeb01549775f347d0c0e1e1](.\52dc938eeeb01549775f347d0c0e1e1.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/6.png)
 
 
 
@@ -81,7 +81,7 @@
 
 
 
-> ![4513ff6d1bb818d78044e04ab55b09d](.\4513ff6d1bb818d78044e04ab55b09d.png)
+> ![image](https://github.com/Gavin4555/GCP-DailyReport/blob/main/7.png)
 
 ##### “本地上传文件夹”选择.py文件和.txt用户文件所在的文件夹即可
 
